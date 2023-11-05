@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first-project';
+  data = "Satyendra"
+  constructor(){
+    setTimeout(()=>{
+      this.title = "12";
+    }, 2000)
+  }
+  getValue(){
+    return "Get fuction data";
+  }
 }
